@@ -32,9 +32,12 @@ And update the GAZEBO_PLUGIN_PATH environment variable:
 $ export GAZEBO_PLUGIN_PATH=${GAZEBO_PLUGIN_PATH}:${PWD}
 ```
 
-Once the plugin is built, open the world in Gazebo:
+Once the plugin is built, change directory to world and open the world in Gazebo:
+
 
 ```
+$ cd ..
+$ cd world
 $ gazebo raghusworld
 ```
 
